@@ -5,4 +5,6 @@
 --includes: Owners, Animals, Appointments, Doctors, Invoices, Medical records
 --COllaborators:
 -- Mendoza, Arjay D.
--- Baman Zildjian
+-- Baman, Zildjian R.
+
+CREATE DATABASE veterinary;
