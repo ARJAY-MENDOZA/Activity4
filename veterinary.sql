@@ -149,3 +149,7 @@ RENAME COLUMN paymentdate TO paymenttime;
 
 DELETE FROM appointments
 WHERE animalid = 1;
+
+UPDATE doctors
+SET lastname = 'Reyes-Gonzales'
+WHERE doctorid = 4;
