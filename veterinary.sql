@@ -1,1 +1,8 @@
-
+--Veterinary Mangement SQL File
+--Creator: Arjay Mendoza
+--Date: Nov 29, 2025
+--Description: This file contains the sql structure for the veterinary management system
+--includes: Owners, Animals, Appointments, Doctors, Invoices, Medical records
+--COllaborators:
+-- Mendoza, Arjay D.
+-- Baman Zildjian
