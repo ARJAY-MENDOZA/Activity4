@@ -140,3 +140,6 @@ VALUES
 (8, 8, 5, '2023-04-18', 'Spaying', 'N/A', 'Surgery successful'),
 (9, 9, 4, '2023-05-02', 'Allergic reaction', 'Antihistamines', 'Prescribed antihistamine'),
 (10, 10, 6, '2023-05-20', 'Conjunctivitis', 'Eye drops', 'Eye drop treatment prescribed');
+
+ALTER TABLE owners
+ADD COLUMN registereddate DATE;
