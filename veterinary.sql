@@ -65,3 +65,15 @@ CREATE TABLE medicalrecords (
     FOREIGN KEY (animalid) REFERENCES animals(animalid),
     FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 );
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email) VALUES
+(1, 'Eren', 'Yeager', 'Barangay Kumintang Ibaba, Batangas City, Batangas', '09123456780', 'eren.yeager@example.com'),
+(2, 'Mikasa', 'Ackerman', 'Barangay Pallocan West, Batangas City, Batangas', '09123456781', 'mikasa.ackerman@example.com'),
+(3, 'Armin', 'Arlert', 'Barangay Libjo, Batangas City, Batangas', '09123456782', 'armin.arlert@example.com'),
+(4, 'Levi', 'Ackerman', 'Barangay Alangilan, Batangas City, Batangas', '09123456783', 'levi.ackerman@example.com'),
+(5, 'Hange', 'Zoë', 'Barangay Bolbok, Batangas City, Batangas', '09123456784', 'hange.zoe@example.com'),
+(6, 'Jean', 'Kirstein', 'Barangay Calicanto, Batangas City, Batangas', '09123456785', 'jean.kirstein@example.com'),
+(7, 'Sasha', 'Braus', 'Barangay San Isidro, Batangas City, Batangas', '09123456786', 'sasha.braus@example.com'),
+(8, 'Erwin', 'Smith', 'Barangay Sta. Rita Karsada, Batangas City, Batangas', '09123456787', 'erwin.smith@example.com'),
+(9, 'Reiner', 'Braun', 'Barangay Balagtas, Batangas City, Batangas', '09123456788', 'reiner.braun@example.com'),
+(10, 'Annie', 'Leonhart', 'Barangay Dumantay, Batangas City, Batangas', '09123456789', 'annie.leonhart@example.com');
+
